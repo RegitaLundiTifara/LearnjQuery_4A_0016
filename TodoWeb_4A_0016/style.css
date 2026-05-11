@@ -59,3 +59,14 @@ button {
 button:hover {
     background: #4338ca;
 }
+
+li {
+    list-style: none;
+    align-items: center;
+    margin-bottom: 15px;
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}

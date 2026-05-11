@@ -47,3 +47,9 @@ btntambah.addEventListener("click", function() {
         `;
 
         daftarTugas.appendChild(listbaru);
+
+         // Tombol Hapus
+        const btnHapus = listbaru.querySelector(".hapus");
+        btnHapus.addEventListener("click", function() {
+            listbaru.remove();
+        });

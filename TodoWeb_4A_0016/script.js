@@ -50,6 +50,7 @@ btntambah.addEventListener("click", function() {
 
          // Tombol Hapus
         const btnHapus = listbaru.querySelector(".hapus");
-        btnHapus.addEventListener("click", function() {
+         btnHapus.addEventListener("click", function() {
             listbaru.remove();
         });
+        

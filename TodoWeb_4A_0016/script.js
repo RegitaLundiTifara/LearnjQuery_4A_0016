@@ -11,4 +11,9 @@ addEventListener("click", function() {
     const tugas= inputTugas.value;
     const tanggal = inputTanggal.value;
     const status = inputStatus.value;
+
+    if (tugas === "" || tanggal === "") {
+        alert("Data harus dimasukkan!");
+        return;
 }
+}); 

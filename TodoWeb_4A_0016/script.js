@@ -1,4 +1,4 @@
-tTugas = document.getElementById("inputTugas");
+const inputTugas = document.getElementById("inputTugas");
 const btntambah = document.getElementById("btnTambah");
 const daftarTugas = document.getElementById("daftarTugas");
 const inputTanggal = document.getElementById("inputTanggal");
@@ -6,16 +6,16 @@ const inputStatus = document.getElementById("inputStatus");
 
 let dataEdit = null;
 
-addEventListener("click", function() {
+btntambah.addEventListener("click", function() {
 
-    const tugas= inputTugas.value;
+    const tugas = inputTugas.value;
     const tanggal = inputTanggal.value;
     const status = inputStatus.value;
 
-    if (tugas === "" || tanggal === "") {
+    if(tugas === "" || tanggal === "") {
         alert("Data harus dimasukkan!");
         return;
-}
+    }
 
     if(dataEdit) {
         dataEdit.querySelector(".nama").innerHTML = tugas;
@@ -47,8 +47,9 @@ addEventListener("click", function() {
         `;
 
         daftarTugas.appendChild(listbaru);
-        // Tombol hapus
-         const btnHapus = listbaru.querySelector(".hapus");
+
+        // Tombol Hapus
+        const btnHapus = listbaru.querySelector(".hapus");
         btnHapus.addEventListener("click", function() {
             listbaru.remove();
-}); 
+        });

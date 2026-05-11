@@ -30,3 +30,18 @@ btntambah.addEventListener("click", function() {
         
     } else {
         const listbaru = document.createElement("li");
+
+         listbaru.innerHTML = `
+            <div class="info">
+                <h3 class="nama">${tugas}</h3>
+                <p class="tanggal">Tanggal: ${tanggal}</p>
+                <p class="status ${status === "Done" ? "done" : "progress"}">
+                    Status: ${status}
+                </p>
+            </div>
+
+            <div class="aksi">
+                <button class="edit">Edit</button>
+                <button class="hapus">Hapus</button>
+            </div>
+        `;

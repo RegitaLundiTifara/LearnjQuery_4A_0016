@@ -53,3 +53,10 @@ btntambah.addEventListener("click", function() {
         btnHapus.addEventListener("click", function() {
             listbaru.remove();
         });
+
+        //Tomcol edit
+        const btnEdit = listbaru.querySelector(".edit");
+        btnEdit.addEventListener("click", function() {
+            inputTugas.value = listbaru.querySelector(".nama").innerHTML;
+            inputTanggal.value = listbaru.querySelector(".tanggal").innerHTML.replace("Tanggal: ", "");
+            inputStatus.value = listbaru.querySelector(".status").innerHTML.replace("Status: ", "");

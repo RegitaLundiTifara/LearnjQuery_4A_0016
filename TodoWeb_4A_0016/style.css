@@ -96,3 +96,8 @@ li {
     font-size: 18px;
     font-weight: bold;
 }
+
+.progress {
+    color: orange;
+    font-weight: bold;
+}

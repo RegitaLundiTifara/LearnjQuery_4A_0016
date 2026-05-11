@@ -5,3 +5,10 @@ const inputTanggal = document.getElementById("inputTanggal");
 const inputStatus = document.getElementById("inputStatus");
 
 let dataEdit = null;
+
+addEventListener("click", function() {
+
+    const tugas= inputTugas.value;
+    const tanggal = inputTanggal.value;
+    const status = inputStatus.value;
+}

@@ -15,5 +15,26 @@ const inputTugas = $("#inputTugas");
         const tanggal = inputTanggal.val();
         const status = inputStatus.val();
 
+        if(tugas === "" || tanggal === "") {
+        alert("Data harus dimasukkan!");
+        return;
+    }
+
+    if(dataEdit) {
+        dataEdit.querySelector(".nama").innerHTML = tugas;
+        dataEdit.querySelector(".tanggal").innerHTML = "Tanggal: " + tanggal;
+        
+        const elStatus = dataEdit.querySelector(".status");
+        elStatus.innerHTML ="Status: " + status;
+        elStatus.className = status === "Done" ? "status done" : "status progress";
+
+        dataEdit = null;
+        btntambah.innerHTML = "Tambah Data";
+
+         } else {
+            const listbaru = $("<li></li>");
+
+
+
 
 });

@@ -9,3 +9,12 @@ $(document).ready(function () {
     let dataEdit = null;
 
     btnTambah.click(function () {
+
+        const tugas = inputTugas.val();
+        const tanggal = inputTanggal.val();
+        const status = inputStatus.val();
+
+        if (tugas === "" || tanggal === "") {
+            alert("Data harus dimasukkan!");
+            return;
+        }

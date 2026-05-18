@@ -9,3 +9,8 @@ $(document).ready(function () {
     let dataEdit = null;
 
     btnTambah.click(function () {
+
+        
+        const tugas = inputTugas.val();
+        const tanggal = inputTanggal.val();
+        const status = inputStatus.val();

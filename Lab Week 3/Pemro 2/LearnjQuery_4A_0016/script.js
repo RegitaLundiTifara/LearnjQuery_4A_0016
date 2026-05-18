@@ -1,4 +1,4 @@
-$(document).ready(function () {
+(document).ready(function () {
 
     const inputTugas = $("#inputTugas");
     const btnTambah = $("#btnTambah");
@@ -7,4 +7,3 @@ $(document).ready(function () {
     const inputStatus = $("#inputStatus");
 
     let dataEdit = null;
-});

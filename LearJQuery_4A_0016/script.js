@@ -55,3 +55,5 @@ $(document).ready(function () {
                     </div>
                 </li>
             `);
+
+            daftarTugas.append(listbaru); 

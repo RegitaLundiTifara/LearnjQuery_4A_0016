@@ -11,4 +11,9 @@ const inputTugas = $("#inputTugas");
 
     btnTambah.click(function () {
 
+        const tugas = inputTugas.val();
+        const tanggal = inputTanggal.val();
+        const status = inputStatus.val();
+
+
 });

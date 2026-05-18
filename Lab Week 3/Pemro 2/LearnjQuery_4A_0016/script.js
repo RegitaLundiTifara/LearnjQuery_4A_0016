@@ -31,7 +31,7 @@ $(document).ready(function () {
         btntambah.innerHTML = "Tambah Data";
         
     } else {
-        const listbaru = document.createElement("li");
+       const listbaru = $("<li></li>");
 
         listbaru.innerHTML = `
 

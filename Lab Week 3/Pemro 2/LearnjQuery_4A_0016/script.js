@@ -7,3 +7,5 @@ $(document).ready(function () {
     const inputStatus = $("#inputStatus");
 
     let dataEdit = null;
+
+    btnTambah.click(function () {

@@ -7,3 +7,4 @@ $(document).ready(function () {
     const inputStatus = $("#inputStatus");
 
     let dataEdit = null;
+});

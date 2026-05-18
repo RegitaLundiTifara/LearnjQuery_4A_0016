@@ -39,6 +39,13 @@ const inputTugas = $("#inputTugas");
 
             daftarTugas.append(listbaru);
 
+            //Tombol hapus
+            const btnHapus = listbaru.find(".hapus")
+             btnHapus.addEventListener("click", function() {
+            listbaru.remove();
+        });
+
+
 
 
 

@@ -62,3 +62,6 @@ $(document).ready(function () {
             listbaru.find(".hapus").click(function () {
                 listbaru.remove();
             });
+
+            // Tombol Hapus
+            listbaru.find(".hapus").click(function () {

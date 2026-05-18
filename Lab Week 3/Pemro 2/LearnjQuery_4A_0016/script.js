@@ -55,4 +55,9 @@ $(document).ready(function () {
                 </li>
             `);
 
-            
+            daftarTugas.append(listbaru); 
+
+             // Tombol Hapus
+            listbaru.find(".hapus").click(function () {
+                listbaru.remove();
+            });

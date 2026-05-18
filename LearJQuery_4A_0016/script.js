@@ -77,3 +77,7 @@ $(document).ready(function () {
                 inputStatus.val(
                     listbaru.find(".status").html().replace("Status: ", "")
                 );
+
+                dataEdit = listbaru;
+                btnTambah.html("Update Data");
+            });

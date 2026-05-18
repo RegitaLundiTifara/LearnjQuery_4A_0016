@@ -65,3 +65,15 @@ $(document).ready(function () {
 
             // Tombol Hapus
             listbaru.find(".hapus").click(function () {
+
+                inputTugas.val(
+                    listbaru.find(".nama").html()
+                );
+
+                inputTanggal.val(
+                    listbaru.find(".tanggal").html().replace("Tanggal: ", "")
+                );
+
+                inputStatus.val(
+                    listbaru.find(".status").html().replace("Status: ", "")
+                );

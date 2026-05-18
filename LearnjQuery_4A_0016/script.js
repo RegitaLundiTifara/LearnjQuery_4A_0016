@@ -34,6 +34,8 @@ const inputTugas = $("#inputTugas");
          } else {
             const listbaru = $("<li></li>");
 
+            listbaru.html(`
+
 
 
 

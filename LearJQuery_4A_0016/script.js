@@ -57,3 +57,8 @@ $(document).ready(function () {
             `);
 
             daftarTugas.append(listbaru); 
+
+             // Tombol Hapus
+            listbaru.find(".hapus").click(function () {
+                listbaru.remove();
+            });

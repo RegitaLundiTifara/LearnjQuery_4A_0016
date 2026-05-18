@@ -35,6 +35,10 @@ const inputTugas = $("#inputTugas");
             const listbaru = $("<li></li>");
 
             listbaru.html(`
+            `;
+
+            daftarTugas.append(listbaru);
+
 
 
 

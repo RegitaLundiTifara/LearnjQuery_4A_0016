@@ -80,3 +80,12 @@ $(document).ready(function () {
                 dataEdit = listbaru;
                 btnTambah.html("Update Data");
             });
+
+         }
+
+        inputTugas.val("");
+        inputTanggal.val("");
+        inputStatus.val("Progress");
+
+    });
+});
